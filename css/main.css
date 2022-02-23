@@ -1,0 +1,112 @@
+/* screen - desktop-website */
+
+.desktop-website {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+}
+
+.desktop-website .nav {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  z-index: 2;
+  border-bottom: 1px solid black;
+}
+
+.desktop-website .navTitle {
+  position: fixed;
+  left: 20px;
+}
+
+.desktop-website .navRight {
+  position: fixed;
+  right: 0px;
+}
+
+.desktop-website .navLink {
+  line-height: 50px;
+  display: inline;
+  cursor: pointer;
+  letter-spacing: 0;
+  transition: all 0.2s ease;
+}
+
+.navRight .navLink {
+  padding-right: 20px;
+}
+
+.desktop-website .navLink:hover {
+  color: #ff0000
+}
+
+.desktop-website .main-page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  width: 100%;
+  z-index: 1;
+}
+
+.desktop-website .main-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.desktop-website .section-title {
+  width: 100%;
+  letter-spacing: 0;
+  min-height: 48px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.desktop-website .home-paragraph {
+  max-width: 900px;
+}
+
+.desktop-website .this-question-has-no {
+  letter-spacing: 0;
+  margin-top: 40px;
+}
+
+.desktop-website .relevanksy-hero {
+  height: 400px;
+  margin-top: 40px;
+}
+
+.desktop-website .token-distribution {
+  height: 800px;
+  margin-left: -0.6px;
+  margin-top: 40px;
+}
+
+.desktop-website .nft-preview {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.desktop-website .i-am {
+  height: 400px;
+  width: 400px;
+}
+
+.desktop-website .nft-preview-item {
+  height: 400px;
+  margin-left: 10px;
+  width: 400px;
+}
+
+.desktop-website .socials {
+  text-align: center;
+}

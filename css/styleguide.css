@@ -1,0 +1,32 @@
+:root { 
+  --black: #000000;
+ 
+  --font-size-l: 36px;
+  --font-size-m: 24px;
+  --font-size-xl: 48px;
+ 
+  --font-family-special_elite: "Special Elite", Helvetica;
+}
+.specialelite-normal-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-special_elite);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.specialelite-normal-black-48px {
+  color: var(--black);
+  font-family: var(--font-family-special_elite);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.specialelite-normal-black-36px {
+  color: var(--black);
+  font-family: var(--font-family-special_elite);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
